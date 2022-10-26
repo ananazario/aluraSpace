@@ -21,7 +21,8 @@
         z-index: -1;
         border: 2px solid transparent;
         background: linear-gradient(to right, #c98cf1, #7b78e5) border-box;
-
+        -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
         -webkit-mask-composite: xor;
         mask-composite: exclude;
       }
